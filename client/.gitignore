@@ -21,3 +21,4 @@ logs
 # IDE files
 .idea/
 .vscode/
+*.sublime-project
