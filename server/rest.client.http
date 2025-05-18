@@ -1,0 +1,9 @@
+# Create user query
+POST http://localhost:8000/api/users HTTP/1.1
+content-type: application/json
+
+{
+  "email": "testuser@gmail.com",
+  "password": "testpassword",
+  "name": "Test User"
+}
