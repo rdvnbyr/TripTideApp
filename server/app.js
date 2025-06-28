@@ -5,7 +5,6 @@ const morgan = require('morgan');
 const fs = require('fs');
 const connectDB = require('./config/db.global');
 const path = require('path');
-const User = require('./models/User');
 require('colors');
 
 const accessLogStream = fs.createWriteStream(path.join(__dirname, 'logs', 'app.log'), {
