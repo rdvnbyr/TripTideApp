@@ -10,4 +10,5 @@ const connectDB = async () => {
     .catch((err) => console.error(`Error: ${err.message}`.red));
 };
 
+
 module.exports = connectDB;
